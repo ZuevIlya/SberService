@@ -62,4 +62,8 @@ SberService for Sber Tournament 31.08.2023-14.09.2023
     </dependency>
 ```
 
-Для запуска проекта нажимаем Maven -> Plugins -> jetty -> jetty:run
+### Как запустить проект
+- Чтобы запустить проект на своём копьютере, клонируйте этот репозиторий и подключите все зависимости в файле pom.xml
+- Для запуска проекта в IDE нажимаем Maven -> Plugins -> jetty -> jetty:run
+- Для отправки POST запросов используется адрес: http://localhost:8080/my-app/my-servlet
+
